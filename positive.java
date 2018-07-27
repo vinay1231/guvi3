@@ -10,11 +10,11 @@ class Ideone
 	int n=3;
 	if(n>0)
 	{
-		 System.out.println(n+" is a positive number");
+		 System.out.println("Positive");
 	}
 	else if(n<0)
 	{
-		 System.out.println(n+" is a negative number");
+		 System.out.println( "Negative");
 	}
 	}
 }
