@@ -7,7 +7,9 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	int n=3;
+	int n;
+		 Scanner scan = new Scanner(System.in);
+		n=scan.nextInt();
 	if(n>0)
 	{
 		 System.out.println("Positive");
@@ -16,5 +18,9 @@ class Ideone
 	{
 		 System.out.println( "Negative");
 	}
+	else
+	{
+		System.out.println("zero");
+	}		
 	}
 }
