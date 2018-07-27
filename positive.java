@@ -7,14 +7,14 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	int n;
+	int v;
 		 Scanner scan = new Scanner(System.in);
 		n=scan.nextInt();
-	if(n>0)
+	if(v>0)
 	{
 		 System.out.println("Positive");
 	}
-	else if(n<0)
+	else if(v<0)
 	{
 		 System.out.println( "Negative");
 	}
